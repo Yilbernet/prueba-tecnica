@@ -1,0 +1,21 @@
+.banner {
+   position: relative;
+}
+.banner__img {
+   width: 100%;
+}
+.banner__btn {
+   position: absolute;
+   background-color: var(--color-blue);
+   color: white;
+   padding: 10px 20px;
+   border-radius: 5px;
+   top: 65%;
+   left: 10%;
+   cursor: pointer;
+   transition: 250ms ease;
+}
+.banner__btn:hover {
+   transform: scale(1.05);
+   filter: brightness(1.15);
+}

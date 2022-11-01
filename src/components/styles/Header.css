@@ -1,0 +1,116 @@
+.header {
+   width: 100%;
+}
+.header__top {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin: 2.5px 50px;
+   flex-wrap: wrap;
+}
+.header__logo {
+   width: 90px;
+   cursor: pointer;
+}
+.header__top-container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border: 2px solid black;
+   border-radius: 5px;
+   height: max-content;
+   padding: 2px;
+   background-color: white;
+   width: 50%;
+   Min-width: 330px;
+}
+.header__input {
+   width: 100%;
+   Min-width: 260px;
+   border-radius: 5px;
+   border: none;
+   padding: 10px;
+}
+.header__search {
+   background-color: black;
+   color: white;
+   padding: 10px;
+   font-size: 1.1rem;
+   border-radius: 5px;
+   margin: 0;
+   cursor: pointer;
+}
+.header__purchases {
+   color: var(--color-blue);
+   font-weight: 750;
+   font-size: 0.75rem;
+   cursor: pointer;
+}
+.header__login {
+   display: flex;
+   flex-direction: column;
+   line-height: 1rem;
+   align-items: center;
+   font-size: 0.7rem;
+   font-weight: 550;
+   cursor: pointer;
+}
+.header__login-span {
+   color: var(--color-blue);
+   text-decoration-line: underline;
+   font-size: 0.9rem;
+}
+.header__cart {
+   font-size: 0.7rem;
+   font-weight: 550;
+   display: flex;
+   gap: 7px;
+   cursor: pointer;
+}
+.header__cart-icon {
+   color: var(--color-blue);
+   font-size: 1.8rem;
+   position: relative;
+}
+.header__count {
+   position: absolute;
+   top: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 15px;
+   aspect-ratio: 1;
+   background-color: white;
+   color: black;
+   font-size: 0.7rem;
+   text-align: center;
+   border-radius: 50%;
+   line-height: 0.9rem;
+}
+.header__bottom {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: 2.5px 50px;
+}
+.header__menu {
+   color: var(--color-blue);
+   font-size: 1.3rem;
+   margin: 0 50px;
+   cursor: pointer;
+}
+.header__container-bottom {
+   margin-left: 100px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 0 35px;
+}
+.header__mobility, .header__home,
+.header__health, .header__protection {
+   font-size: 0.7rem;
+   font-weight: 600;
+   margin: 0;
+}
+.header__icon {
+   font-size: 1.1rem;
+   margin-right: 15px;
+}

@@ -1,0 +1,42 @@
+.collection__title {
+   color: var(--color-blue);
+   text-align: center;
+   margin-top: 50px;
+}
+.collection__container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+.collection__item {
+   width: 23%;
+   padding: 10px;
+   transition: 250ms ease;
+}
+.collection__item:hover {
+   box-shadow: -1px 1px 5px 0 gray;
+}
+.collection__img {
+   width: 100%;
+   height: 250px;
+   object-fit: contain;
+   margin: 0;
+}
+.collection__p {
+   margin: 0 10px;
+}
+.collection__btn {
+   width: 100%;
+   background-color: var(--color-blue);
+   color: white;
+   padding: 10px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 250ms ease;
+   margin: 10px 0;
+}
+.collection__btn:hover {
+   transform: scale(1.05);
+   filter: brightness(1.15);
+}
